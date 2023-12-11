@@ -48,17 +48,7 @@ public class Itog_Java {
     }
 
     public static void getPhoneBook() {
-//        ArrayList<Map.Entry<String, ArrayList>> list = new ArrayList(phoneBook.entrySet());
 
-
-//        Collections.sort(list, new Comparator<Map.Entry<String, ArrayList>>() {
-//            public int compare(Map.Entry<String, ArrayList> o1, Map.Entry<String, ArrayList> o2) {
-//                return o2.getValue().size() - o1.getValue().size();
-//            }
-//        });
-//        for(Map.Entry<String, ArrayList> entry: list)   {
-//            System.out.println(entry.getKey() + ":" + entry.getValue());
-//        }
         ArrayList<Map.Entry<String, ArrayList>> entries = new ArrayList(phoneBook.entrySet());
         Collections.sort(entries, new Comparator<Map.Entry<String, ArrayList>>() {
             public int compare(Map.Entry<String, ArrayList> o1, Map.Entry<String, ArrayList> o2) {
